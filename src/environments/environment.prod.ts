@@ -11,6 +11,7 @@ export const environment: Environment = {
   sentryDsn: 'https://6295834d69104f54b55cc0ebe4ada310@o1167067.ingest.sentry.io/6257761',
 
   defaultActivityId: '1',
+  defaultSkillId: undefined, // disabled
   allUsersGroupId: '3',
 
   languages: [
@@ -27,7 +28,6 @@ export const environment: Environment = {
   theme: 'default',
   featureFlags: {
     hideTaskTabs: [ 'progress' ],
-    skillsDisabled: true
   },
 
   /* paths to be matched must not have a trailing slash */
