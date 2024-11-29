@@ -11,6 +11,8 @@ export const environment: Environment = {
   sentryDsn: 'https://6295834d69104f54b55cc0ebe4ada310@o1167067.ingest.sentry.io/6257761',
 
   defaultActivityId: '4702',
+  defaultSkillId : '409159715167354071',
+
   allUsersGroupId: '3',
 
   languages: [
@@ -27,8 +29,7 @@ export const environment: Environment = {
 
   theme: 'default',
   featureFlags: {
-    hideTaskTabs: [],
-    skillsDisabled: false
+    hideTaskTabs: []
   },
 
   redirects: { /* paths to be matched must not have a trailing slash */
