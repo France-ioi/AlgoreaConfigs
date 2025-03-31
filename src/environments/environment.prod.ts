@@ -37,7 +37,11 @@ export const environment: Environment = {
   }
 };
 
-export const presets = {};
-export function getPresetNameByOrigin(origin: string): null {
+export const presets: Record<Preset, PartialDeep<Environment>> = {
+  dummy: {
+    theme: 'dummy',
+    defaultTitle: 'dummy',
+  },
+};export function getPresetNameByOrigin(origin: string): null {
   return null;
 }
