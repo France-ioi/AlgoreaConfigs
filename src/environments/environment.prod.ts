@@ -37,3 +37,7 @@ export const environment: Environment = {
   }
 };
 
+export const presets = {};
+export function getPresetNameByOrigin(origin: string): null {
+  return null;
+}
