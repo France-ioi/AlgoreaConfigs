@@ -3,10 +3,10 @@ import { Environment, PartialDeep } from 'src/app/utils/config';;
 export const environment: Environment = {
   production: true,
   apiUrl: '/api',
-  oauthServerUrl: 'https://login.france-ioi.org',
-  oauthClientId: '56',
-  searchApiUrl: 'https://74w4cx6w62uon4dtqinf6quqeu0qvunw.lambda-url.eu-west-3.on.aws',
-  forumServerUrl: 'wss://0j8i1y8ca2.execute-api.eu-west-3.amazonaws.com/fioi',
+  oauthServerUrl: 'https://host2test1.france-ioi.org',
+  oauthClientId: '24',
+//  searchApiUrl: '',
+//  forumServerUrl: '',
 
   sentryDsn: 'https://6295834d69104f54b55cc0ebe4ada310@o1167067.ingest.sentry.io/6257761',
 
@@ -16,11 +16,10 @@ export const environment: Environment = {
   allUsersGroupId: '3',
 
   languages: [
-    { tag: 'fr', path: '/fr/' },
     { tag: 'en', path: '/en/' },
   ],
-  defaultTitle: 'Algorea Platform',
-  languageSpecificTitles: { fr: 'Plateforme Algoréa' },
+  defaultTitle: 'La Skool',
+  languageSpecificTitles: {},
 
   allowForcedToken: true,
   authType: 'cookies',
