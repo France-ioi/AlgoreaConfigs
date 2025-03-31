@@ -37,6 +37,7 @@ export const environment: Environment = {
   }
 };
 
+type Preset = 'dummy';
 export const presets: Record<Preset, PartialDeep<Environment>> = {
   dummy: {
     theme: 'dummy',
