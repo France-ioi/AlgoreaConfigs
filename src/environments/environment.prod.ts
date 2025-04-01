@@ -6,7 +6,7 @@ export const environment: Environment = {
   oauthServerUrl: 'https://host2test1.france-ioi.org',
   oauthClientId: '24',
 //  searchApiUrl: '',
-//  forumServerUrl: '',
+  forumServerUrl: 'wss://cyduaoy46h.execute-api.eu-west-3.amazonaws.com/pbl',
 
   sentryDsn: 'https://6295834d69104f54b55cc0ebe4ada310@o1167067.ingest.sentry.io/6257761',
 
