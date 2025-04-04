@@ -20,6 +20,7 @@ export const environment: Environment = {
   ],
   defaultTitle: 'La Skool',
   languageSpecificTitles: {},
+  leftHeaderLogoUrl: '//d2dvl3h4927j7o.cloudfront.net/deployments/pbl-prod/logo_la_skool.png',
 
   allowForcedToken: true,
   authType: 'cookies',
