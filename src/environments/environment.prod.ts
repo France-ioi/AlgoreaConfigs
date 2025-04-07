@@ -3,7 +3,7 @@ import { Environment, PartialDeep } from 'src/app/utils/config';;
 export const environment: Environment = {
   production: true,
   apiUrl: '/api',
-  oauthServerUrl: 'https://host2test1.france-ioi.org',
+  oauthServerUrl: 'https://login-skool.probabl.ai',
   oauthClientId: '24',
 //  searchApiUrl: '',
   forumServerUrl: 'wss://cyduaoy46h.execute-api.eu-west-3.amazonaws.com/pbl',
