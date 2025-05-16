@@ -1,8 +1,0 @@
-
-.env
-.env.*
-!.env.*.enc
-!.env.enc
-
-# no private keys
-private_key.pem
