@@ -18,7 +18,7 @@ export const environment: Environment = {
   languages: [
     { tag: 'en', path: '/en/' },
   ],
-  defaultTitle: 'La Skool',
+  defaultTitle: 'skool',
   languageSpecificTitles: {},
   leftHeaderLogoUrl: '//d2dvl3h4927j7o.cloudfront.net/deployments/pbl-prod/logo_la_skool.png',
 
