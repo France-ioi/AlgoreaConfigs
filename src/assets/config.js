@@ -15,14 +15,13 @@ window.appConfig = {
     { tag: 'fr', path: '/fr/' },
     { tag: 'en', path: '/en/' },
   ],
-  defaultTitle: 'Algorea Platform',
-  languageSpecificTitles: { fr: 'Plateforme Algoréa' },
+  defaultTitle: 'Activities by Telecom Paris and Dartmouth college',
   allowForcedToken: true,
   authType: 'cookies',
 
   itemPlatformId: 'algorea_backend',
 
-  theme: 'default',
+  theme: 'coursera-pt',
   featureFlags: {
     hideTaskTabs: [],
     showGroupAccessTab: true,
