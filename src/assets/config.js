@@ -8,7 +8,6 @@ window.appConfig = {
   sentryDsn: 'https://6295834d69104f54b55cc0ebe4ada310@o1167067.ingest.sentry.io/6257761',
 
   defaultActivityId: '1',
-  defaultSkillId : '2',
 
   allUsersGroupId: '3',
 
