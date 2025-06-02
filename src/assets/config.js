@@ -1,7 +1,4 @@
-import { Environment } from 'src/app/utils/config';;
-
-export const environment: Environment = {
-  production: true,
+window.appConfig = {
   apiUrl: '/api',
   oauthServerUrl: 'https://login.france-ioi.org',
   oauthClientId: '50',
@@ -188,27 +185,5 @@ export const environment: Environment = {
     'contribute/tezos-core': { id: '282771369415587327', path: [ '1', '6848438477710581377' ] },
     'contribute/grant': { id: '3989648293232966174', path: [ '1', '6848438477710581377' ] },
     'contribute/baker': { id: '2269214197826080407', path: [ '1', '6848438477710581377' ] },
-  }
-};
-
-type Preset = 'example' | 'demo';
-export const presets: Record<Preset, Partial<Environment>> = {
-  example: {
-    defaultActivityId: '1625159049301502151', // Motif Art
-    defaultTitle: 'Example app',
-    authType: 'tokens',
-    itemPlatformId: 'Example',
-  },
-  demo: {
-    defaultActivityId: '1352246428241737349', // SNT
-    defaultTitle: 'Demo app'
   },
 };
-
-export function getPresetNameByOrigin(origin: string): Preset | null {
-  switch (origin) {
-    case 'http://example.algorea.org': return 'example';
-    default: return null;
-  }
-}
-
