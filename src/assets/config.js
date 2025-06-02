@@ -1,7 +1,4 @@
-import { Environment, PartialDeep } from 'src/app/utils/config';;
-
-export const environment: Environment = {
-  production: true,
+window.appConfig = {
   apiUrl: '/api',
   oauthServerUrl: 'https://login-skool.probabl.ai',
   oauthClientId: '24',
@@ -35,15 +32,5 @@ export const environment: Environment = {
   redirects: { /* paths to be matched must not have a trailing slash */
     'home': { id: '1', path: [] },
 
-  }
-};
-
-type Preset = 'dummy';
-export const presets: Record<Preset, PartialDeep<Environment>> = {
-  dummy: {
-    theme: undefined,
-    defaultTitle: 'dummy',
   },
-};export function getPresetNameByOrigin(origin: string): null {
-  return null;
-}
+};
