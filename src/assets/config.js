@@ -1,7 +1,4 @@
-import { Environment, PartialDeep } from 'src/app/utils/config';;
-
-export const environment: Environment = {
-  production: true,
+window.appConfig = {
   apiUrl: '/api',
   oauthServerUrl: 'https://login.france-ioi.org',
   oauthClientId: '56',
@@ -59,21 +56,5 @@ export const environment: Environment = {
 
     'algorea-adventure': { id: '100575556387408660', path: ['4702'] },
     'contents/4707-4702-100575556387408660': { id: '100575556387408660', path: ['4702'] },
-  }
-};
-
-type Preset = 'telecomParis';
-export const presets: Record<Preset, PartialDeep<Environment>> = {
-  telecomParis: {
-    theme: 'coursera-pt',
-    defaultTitle: 'Activities by Telecom Paris and Dartmouth college',
   },
 };
-
-export function getPresetNameByOrigin(origin: string): Preset | null {
-  switch (origin) {
-    case 'https://telecom-paris.france-ioi.org': return 'telecomParis';
-    default: return null;
-  }
-}
-
