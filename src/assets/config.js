@@ -16,7 +16,7 @@ window.appConfig = {
   ],
   defaultTitle: 'skool',
   languageSpecificTitles: {},
-  leftHeaderLogoUrl: '//d2dvl3h4927j7o.cloudfront.net/deployments/pbl-prod/logo_la_skool.png',
+  leftHeaderLogoUrl: '//d2dvl3h4927j7o.cloudfront.net/deployments/pbl-prod/skolarlogo.png',
 
   allowForcedToken: true,
   authType: 'cookies',
