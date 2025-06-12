@@ -14,7 +14,7 @@ window.appConfig = {
   languages: [
     { tag: 'en', path: '/en/' },
   ],
-  defaultTitle: 'skool',
+  defaultTitle: 'skolar',
   languageSpecificTitles: {},
   leftHeaderLogoUrl: '//d2dvl3h4927j7o.cloudfront.net/deployments/pbl-prod/skolarlogo.png',
 
