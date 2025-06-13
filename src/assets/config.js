@@ -1,6 +1,6 @@
 window.appConfig = {
   apiUrl: '/api',
-  oauthServerUrl: 'https://login-skool.probabl.ai',
+  oauthServerUrl: 'https://login-skolar.probabl.ai',
   oauthClientId: '24',
 //  searchApiUrl: '',
 //  forumServerUrl: 'wss://cyduaoy46h.execute-api.eu-west-3.amazonaws.com/pbl',
