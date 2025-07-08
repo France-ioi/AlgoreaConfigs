@@ -2,3 +2,4 @@ languages:
   - en
   - fr
 assetDomain: d2qqs847dby5cf.cloudfront.net
+customAssetPath: /frontend/assets/dev/
