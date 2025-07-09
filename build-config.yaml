@@ -1,3 +1,4 @@
 languages:
   - en
 assetDomain: static5.algorea.org
+customAssetPath: /frontend/assets/tez-prod/
