@@ -6,5 +6,5 @@ customAssetPath: /frontend/assets/dev/
 fontPreloads:
   - //static5.algorea.org/frontend/assets/common/media/sourcesanspro-light-webfont.woff2
 customHeadTags:
-  - '<script id="democustomtag1"></script>'
-  - '<script id="democustomtag2"></script>'
+  - <script id="democustomtag1"></script>
+  - <script id="democustomtag2"></script>
