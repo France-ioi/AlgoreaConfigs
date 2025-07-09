@@ -3,3 +3,5 @@ languages:
   - fr
 assetDomain: d2qqs847dby5cf.cloudfront.net
 customAssetPath: /frontend/assets/dev/
+fontPreloads:
+  - //static5.algorea.org/frontend/assets/common/media/sourcesanspro-light-webfont.woff2
