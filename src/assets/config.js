@@ -1,9 +1,9 @@
 window.appConfig = {
   apiUrl: '/api',
-  oauthServerUrl: 'https://login-skolar.probabl.ai',
-  oauthClientId: '24',
+  oauthServerUrl: 'https://login-learn.thymio.org',
+  oauthClientId: '0000', /// <== FIXME
 //  searchApiUrl: '',
-//  forumServerUrl: 'wss://cyduaoy46h.execute-api.eu-west-3.amazonaws.com/pbl',
+//  forumServerUrl: 'wss://cyduaoy46h.execute-api.eu-west-3.amazonaws.com/thy',
 
   sentryDsn: 'https://6295834d69104f54b55cc0ebe4ada310@o1167067.ingest.sentry.io/6257761',
 
@@ -13,21 +13,21 @@ window.appConfig = {
 
   languages: [
     { tag: 'en', path: '/en/' },
+    { tag: 'fr', path: '/fr/' },
   ],
-  defaultTitle: 'skolar',
+  defaultTitle: 'Thymio Learn',
   languageSpecificTitles: {},
-  leftHeaderLogoUrl: '//d2dvl3h4927j7o.cloudfront.net/deployments/pbl-prod/skolarlogo.png',
+//  leftHeaderLogoUrl: '//d2dvl3h4927j7o.cloudfront.net/deployments/...',
 
   allowForcedToken: true,
   authType: 'cookies',
 
   itemPlatformId: 'algorea_backend',
 
-  theme: 'probabl',
   featureFlags: {
     hideTaskTabs: [ 'alg-chapter-progress' ],
     leftMenu: {
-      groups: { hide: true, showToUserIds: ['1887175027913922318', '2265892292233863301', '2535979458192600277', '2925457255963088153', '5831612681781200103'] },
+      groups: { hide: true },
       skills: { hide: true },
     }
   },

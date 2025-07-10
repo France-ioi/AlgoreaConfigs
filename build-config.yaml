@@ -1,11 +1,4 @@
 languages:
   - en
 assetDomain: static5.algorea.org
-customAssetPath: /frontend/assets/pbl-prod/
-fontPreloads:
-  - //static5.algorea.org/frontend/assets/common/media/geist-v3-latin-regular.woff2
-  - //static5.algorea.org/frontend/assets/common/media/geist-v3-latin-500.woff2
-  - //static5.algorea.org/frontend/assets/common/media/geist-v3-latin-300.woff2
-  - //static5.algorea.org/frontend/assets/common/media/geist-v3-latin-700.woff2
-customHeadTags:
-  - <script defer data-domain="skolar.probabl.ai" src="https://plausible.io/js/script.js"></script>
+#customAssetPath: /frontend/assets/thy-prod/
