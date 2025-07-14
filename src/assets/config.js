@@ -27,7 +27,7 @@ window.appConfig = {
   featureFlags: {
     hideTaskTabs: [ 'alg-chapter-progress' ],
     leftMenu: {
-      groups: { hide: true, showToUserIds: [ 5474504249508524668, 5731266669701761019 ] },
+      groups: { hide: true, showToUserIds: [ '5474504249508524668', '5731266669701761019' ] },
       skills: { hide: true },
     }
   },
