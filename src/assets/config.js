@@ -1,7 +1,7 @@
 window.appConfig = {
   apiUrl: '/api',
   oauthServerUrl: 'https://login-learn.thymio.org',
-  oauthClientId: '0000', /// <== FIXME
+  oauthClientId: '25',
 //  searchApiUrl: '',
 //  forumServerUrl: 'wss://cyduaoy46h.execute-api.eu-west-3.amazonaws.com/thy',
 
