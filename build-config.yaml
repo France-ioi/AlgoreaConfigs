@@ -1,4 +1,9 @@
 languages:
   - en
 assetDomain: static5.algorea.org
-#customAssetPath: /frontend/assets/thy-prod/
+# customAssetPath: /frontend/assets/thy-prod/
+fontPreloads:
+  - //static5.algorea.org/frontend/assets/common/media/poppins-v23-latin-regular.woff2
+  - //static5.algorea.org/frontend/assets/common/media/poppins-v23-latin-500.woff2
+  - //static5.algorea.org/frontend/assets/common/media/poppins-v23-latin-300.woff2
+  - //static5.algorea.org/frontend/assets/common/media/poppins-v23-latin-700.woff2
