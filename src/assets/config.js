@@ -14,6 +14,8 @@ window.appConfig = {
   languages: [
     { tag: 'en', path: '/en/' },
     { tag: 'fr', path: '/fr/' },
+    { tag: 'de', path: '/de/' },
+    { tag: 'it', path: '/it/' },
   ],
   defaultTitle: 'Thymio Learn',
   languageSpecificTitles: {},
