@@ -56,5 +56,7 @@ window.appConfig = {
 
     'algorea-adventure': { id: '100575556387408660', path: ['4702'] },
     'contents/4707-4702-100575556387408660': { id: '100575556387408660', path: ['4702'] },
+
+    'intelligence-artificielle': { id: '3654923452105390543', path: ['4702'] },
   },
 };
