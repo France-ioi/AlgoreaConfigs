@@ -3,7 +3,9 @@ window.appConfig = {
   oauthServerUrl: 'https://login.france-ioi.org',
   oauthClientId: '50',
   searchApiUrl: 'https://rcjrg5ofrfttrugg26cj2x3xwi0nowdv.lambda-url.eu-west-3.on.aws',
-  forumServerUrl: 'wss://i4eb4aa6ol.execute-api.eu-west-3.amazonaws.com/tezos-prod',
+
+  slsWsUrl: 'wss://we30t6zkij.execute-api.eu-west-3.amazonaws.com/prod',
+  slsApiUrl: '/sls',
 
   sentryDsn: 'https://6295834d69104f54b55cc0ebe4ada310@o1167067.ingest.sentry.io/6257761',
 
@@ -24,6 +26,7 @@ window.appConfig = {
 
   theme: 'default',
   featureFlags: {
+    enableForum: true,
     hideTaskTabs: [ 'progress' ],
   },
 
