@@ -13,9 +13,6 @@ customHeadTags:
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
-
-      // 2. Set Default Consent to 'Denied'
-      // This ensures compliance before GTM loads. Tags will not fire yet.
       gtag('consent', 'default', {
         'ad_storage': 'denied',
         'analytics_storage': 'denied',
