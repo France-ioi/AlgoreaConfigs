@@ -4,7 +4,7 @@ window.appConfig = {
   oauthClientId: '50',
   searchApiUrl: 'https://rcjrg5ofrfttrugg26cj2x3xwi0nowdv.lambda-url.eu-west-3.on.aws',
 
-  slsWsUrl: 'wss://we30t6zkij.execute-api.eu-west-3.amazonaws.com/prod',
+  slsWsUrl: 'wss://el03phwz14.execute-api.eu-west-3.amazonaws.com/tez-prod',
   slsApiUrl: '/sls',
 
   sentryDsn: 'https://6295834d69104f54b55cc0ebe4ada310@o1167067.ingest.sentry.io/6257761',
@@ -26,6 +26,7 @@ window.appConfig = {
 
   theme: 'default',
   featureFlags: {
+    enableNotifications: true,
     enableForum: true,
     hideTaskTabs: [ 'progress' ],
   },
