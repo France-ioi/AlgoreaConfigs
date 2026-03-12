@@ -2,6 +2,10 @@ window.appConfig = {
   apiUrl: '/api',
   oauthServerUrl: 'https://login.france-ioi.org',
   oauthClientId: '56',
+
+  slsWsUrl: 'wss://4wblf5xqh1.execute-api.eu-west-3.amazonaws.com/fioi-prod',
+  slsApiUrl: '/sls',
+
   searchApiUrl: 'https://74w4cx6w62uon4dtqinf6quqeu0qvunw.lambda-url.eu-west-3.on.aws',
 
   sentryDsn: 'https://6295834d69104f54b55cc0ebe4ada310@o1167067.ingest.sentry.io/6257761',
