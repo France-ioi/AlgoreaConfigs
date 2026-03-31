@@ -23,6 +23,7 @@ window.appConfig = {
 
   theme: 'coursera-pt',
   featureFlags: {
+    community: 'notInNav',
     hideTaskTabs: [],
     showGroupAccessTab: true,
     showLeftMenuTabs: true,
