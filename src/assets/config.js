@@ -29,6 +29,7 @@ window.appConfig = {
 
   theme: 'default',
   featureFlags: {
+    community: 'notInNav',
     hideTaskTabs: []
   },
 
