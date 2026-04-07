@@ -5,6 +5,9 @@ window.appConfig = {
 //  searchApiUrl: '',
 //  forumServerUrl: 'wss://cyduaoy46h.execute-api.eu-west-3.amazonaws.com/thy',
 
+  slsWsUrl: 'wss://7i695vtyx8.execute-api.eu-west-3.amazonaws.com/thy-prod',
+  slsApiUrl: '/sls',
+
   sentryDsn: 'https://6295834d69104f54b55cc0ebe4ada310@o1167067.ingest.sentry.io/6257761',
 
   defaultActivityId: '1',
