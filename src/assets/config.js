@@ -7,6 +7,9 @@ window.appConfig = {
   // forumServerUrl: '...',
   sentryDsn: 'https://6295834d69104f54b55cc0ebe4ada310@o1167067.ingest.sentry.io/6257761',
 
+  slsWsUrl: 'wss://pkq9ft7322.execute-api.eu-west-3.amazonaws.com/dev',
+  slsApiUrl: '/sls',
+
   defaultActivityId: '4702',
   defaultSkillId: '3000',
   allUsersGroupId: '3',
