@@ -43,4 +43,7 @@ window.appConfig = {
     'home': { id: '1', path: [] },
 
   },
+
+  hideLeftMenuTreeOnItemIds: [ '1' ],
+
 };
