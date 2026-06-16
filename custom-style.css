@@ -1,4 +1,48 @@
 :root {
   --font-family: "Poppins", sans-serif;
   --alg-primary-color: #452AB6;
+  --alg-tree-selected-color: #FCD215;
+  --alg-left-tab-selected-bg-color: var(--alg-tree-selected-color);
+}
+
+.left-menu {
+  --alg-light-bg-color: #FAFAF8;
+  --alg-primary-color: #413E89;
+  --alg-secondary-color: #413E89;
+  color: #413E89;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+.left-menu :where(
+  .main-menu-icon,
+  .main-menu-title,
+  .tree-nav-caption,
+  .tree-nav-icon,
+  .tree-nav-chevron,
+  .back-button-title,
+  .back-button-gutter,
+  .back-button-content-icon,
+  .result-list-link-caption,
+  .result-list-description,
+  .result-list-icon,
+  .result-caption,
+  .empty-message,
+  .platform-name
+) {
+  color: #413E89;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+.left-menu i[class*="ph"] {
+  color: #413E89;
+}
+
+.left-menu .main-menu-title {
+  font-weight: 700 !important;
+}
+
+.left-menu .sidebar-toggle-btn {
+  color: #413E89;
 }
