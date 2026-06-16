@@ -24,7 +24,6 @@ window.appConfig = {
 
   itemPlatformId: 'algorea_backend',
 
-  theme: 'coursera-pt',
   featureFlags: {
     community: 'notInNav',
     hideTaskTabs: [],

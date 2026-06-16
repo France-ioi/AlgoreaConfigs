@@ -7,3 +7,4 @@ fontPreloads:
   - //static5.algorea.org/frontend/assets/common/media/sourcesanspro-light-webfont.woff2
 customHeadTags:
   - <meta name="robots" content="noindex">
+customStyleFile: custom-style.css
