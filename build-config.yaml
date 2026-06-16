@@ -9,3 +9,4 @@ fontPreloads:
   - //static5.algorea.org/frontend/assets/common/media/geist-v3-latin-700.woff2
 customHeadTags:
   - <script async src="https://b.probabl.ai/pb.min.js"></script>
+customStyleFile: custom-style.css

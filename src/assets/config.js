@@ -24,7 +24,6 @@ window.appConfig = {
 
   itemPlatformId: 'algorea_backend',
 
-  theme: 'probabl',
   featureFlags: {
     hideTaskTabs: [ 'alg-chapter-progress' ],
     leftMenu: {
