@@ -46,3 +46,6 @@
 .left-menu .sidebar-toggle-btn {
   color: #413E89;
 }
+.left-menu .tree-nav-chevron i {
+  font-family: "Phosphor-Fill" !important;
+}
