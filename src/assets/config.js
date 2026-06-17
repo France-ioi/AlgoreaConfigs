@@ -31,11 +31,14 @@ window.appConfig = {
 
   featureFlags: {
     hideTaskTabs: [ 'alg-chapter-progress' ],
-    leftMenu: {
-      groups: { hide: true, showToUserIds: [ '5474504249508524668', '5731266669701761019' ] },
-      skills: { hide: true },
-    }
   },
+
+  leftMenuTabs: [
+    { type: 'activities', showTo: 'all', content: { id: '1', path: [] }, caption: { default: 'Home' }, icon: 'ph ph-cube' },
+    { type: 'activities', showTo: 'all', content: { id: '331016547396745102', path: [ '1' ] }, caption: { default: 'Coding' }, icon: 'ph ph-code' },
+    { type: 'groups', showTo: [ '5474504249508524668', '5731266669701761019' ] },
+    { type: 'search', showTo: 'all' },
+  ],
 
   redirects: { /* paths to be matched must not have a trailing slash */
     'home': { id: '1', path: [] },
