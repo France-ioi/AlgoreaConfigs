@@ -11,7 +11,6 @@ window.appConfig = {
   slsApiUrl: '/sls',
 
   defaultActivityId: '4702',
-  defaultSkillId: '3000',
   allUsersGroupId: '3',
 
   languages: [
@@ -25,11 +24,17 @@ window.appConfig = {
   itemPlatformId: 'algorea_backend',
 
   featureFlags: {
-    community: 'notInNav',
     hideTaskTabs: [],
     showGroupAccessTab: true,
-    showLeftMenuTabs: true,
   },
+
+  leftMenuTabs: [
+    { type: 'activities', showTo: 'all', content: { id: '4702', path: [] } },
+    { type: 'skills', showTo: 'all', content: { id: '3000', path: [] } },
+    { type: 'groups', showTo: 'all' },
+    { type: 'community', showTo: 'all' },
+    { type: 'search', showTo: 'all' },
+  ],
 
   redirects: { /* paths to be matched must not have a trailing slash */
     'home': { id: '4702', path: [] },
