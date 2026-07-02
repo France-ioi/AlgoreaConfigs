@@ -4,6 +4,6 @@ languages:
   - de
   - it
 assetDomain: static5.algorea.org
-# customAssetPath: /frontend/assets/thy-prod/
+customAssetPath: /frontend/assets/thy-prod/
 fontPreloads: []
 customStyleFile: custom-style.css
