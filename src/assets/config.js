@@ -22,7 +22,7 @@ window.appConfig = {
   ],
   defaultTitle: 'Thymio Learn',
   languageSpecificTitles: {},
-//  leftHeaderLogoUrl: '//d2dvl3h4927j7o.cloudfront.net/deployments/...',
+  leftHeaderLogoUrl: 'https://static5.algorea.org/frontend/assets/thy-prod/images/logo.png',
 
   allowForcedToken: true,
   authType: 'cookies',
