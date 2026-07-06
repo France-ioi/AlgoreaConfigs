@@ -11,7 +11,6 @@ window.appConfig = {
   sentryDsn: 'https://6295834d69104f54b55cc0ebe4ada310@o1167067.ingest.sentry.io/6257761',
 
   defaultActivityId: '4702',
-  defaultSkillId : '409159715167354071',
 
   allUsersGroupId: '3',
 
@@ -29,9 +28,16 @@ window.appConfig = {
 
   theme: 'default',
   featureFlags: {
-    community: 'notInNav',
     hideTaskTabs: []
   },
+
+  leftMenuTabs: [
+    { type: 'activities', showTo: 'all', content: { id: '4702', path: [] } },
+    { type: 'skills', showTo: 'all', content: { id: '409159715167354071', path: [] } },
+    { type: 'groups', showTo: 'all' },
+    { type: 'community', showTo: [ '931899637246949996', '1909944900306129841' ] },
+    { type: 'search', showTo: 'all' },
+  ],
 
   redirects: { /* paths to be matched must not have a trailing slash */
     'home': { id: '4702', path: [] },
