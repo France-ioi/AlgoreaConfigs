@@ -10,7 +10,6 @@ window.appConfig = {
   sentryDsn: 'https://6295834d69104f54b55cc0ebe4ada310@o1167067.ingest.sentry.io/6257761',
 
   defaultActivityId: '1',
-  defaultSkillId: undefined, // disabled
   allUsersGroupId: '3',
 
   languages: [
@@ -30,6 +29,12 @@ window.appConfig = {
     enableForum: true,
     hideTaskTabs: [ 'progress' ],
   },
+
+  leftMenuTabs: [
+    { type: 'activities', showTo: 'all', content: { id: '1', path: [] } },
+    { type: 'groups', showTo: 'all' },
+    { type: 'search', showTo: 'all' },
+  ],
 
   /* paths to be matched must not have a trailing slash */
   redirects: {
