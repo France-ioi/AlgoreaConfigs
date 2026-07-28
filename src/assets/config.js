@@ -49,6 +49,6 @@ window.appConfig = {
     'support': { id: '857998269736543997', path: [] },
   },
 
-  hideLeftMenuTreeOnItemIds: [ '1', '331016547396745102', '8574402720651125412', '857998269736543997' ],
+  hideLeftMenuTreeOnItemIds: [ '1', '331016547396745102' ],
 
 };
