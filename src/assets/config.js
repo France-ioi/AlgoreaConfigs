@@ -34,10 +34,10 @@ window.appConfig = {
   },
 
   leftMenuTabs: [
-    { type: 'activities', showTo: 'all', content: { id: '1', path: [] }, caption: { default: 'Home' }, icon: 'ph ph-house' },
-    { type: 'activities', showTo: 'all', content: { id: '331016547396745102', path: [] }, caption: { default: 'Coding' }, icon: 'ph ph-code' },
-    { type: 'activities', showTo: 'all', content: { id: '8574402720651125412', path: [] }, caption: { default: 'Learning Library' }, icon: 'ph ph-book-open-text' },
-    { type: 'activities', showTo: 'all', content: { id: '857998269736543997', path: [] }, caption: { default: 'Support' }, icon: 'ph ph-question' },
+    { type: 'activities', showTo: 'all', content: { id: '1', path: [] }, caption: { default: 'Home', fr: 'Accueil', de: 'Startseite', it: 'Home' }, icon: 'ph ph-house' },
+    { type: 'activities', showTo: 'all', content: { id: '331016547396745102', path: [] }, caption: { default: 'Coding', fr: 'Coding' }, icon: 'ph ph-code' },
+    { type: 'activities', showTo: 'all', content: { id: '8574402720651125412', path: [] }, caption: { default: 'Learning Library', fr: 'Ressources', de: 'Kurse', it: 'Risorse' }, icon: 'ph ph-book-open-text' },
+    { type: 'activities', showTo: 'all', content: { id: '857998269736543997', path: [] }, caption: { default: 'Support', fr: 'Assistance', it: 'Assistenza' }, icon: 'ph ph-question' },
     { type: 'groups', showTo: [ '5474504249508524668', '5731266669701761019' ] },
     { type: 'search', showTo: 'all' },
   ],
@@ -49,6 +49,6 @@ window.appConfig = {
     'support': { id: '857998269736543997', path: [] },
   },
 
-  hideLeftMenuTreeOnItemIds: [ '1', '331016547396745102' ],
+  hideLeftMenuTreeOnItemIds: [ '1', '331016547396745102', '8574402720651125412', '857998269736543997' ],
 
 };
