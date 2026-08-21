@@ -1,6 +1,6 @@
 languages:
   - en
   - fr
-assetDomain: static5.algorea.org
+assetDomain: static.be-oi.be
 customAssetPath: /frontend/assets/beoi/
 fontPreloads: []
