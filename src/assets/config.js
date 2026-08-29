@@ -19,7 +19,7 @@ window.appConfig = {
     { tag: 'fr', path: '/fr/' },
     { tag: 'nl', path: '/nl/' },
   ],
-  defaultTitle: 'beOI Learn',
+  defaultTitle: 'beOI-Learn',
   languageSpecificTitles: {},
 
   allowForcedToken: true,
@@ -33,7 +33,7 @@ window.appConfig = {
 
   leftMenuTabs: [
     { type: 'activities', showTo: 'all', content: { id: '1', path: [] }, caption: { default: 'Home', fr: 'Accueil', de: 'Startseite', it: 'Home' }, icon: 'ph ph-house' },
-    { type: 'groups', showTo: [ '5474504249508524668', '5731266669701761019' ] },
+    { type: 'groups', showTo: 'all' },
   ],
 
   redirects: { /* paths to be matched must not have a trailing slash */
