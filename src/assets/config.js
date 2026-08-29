@@ -1,7 +1,7 @@
 window.appConfig = {
   apiUrl: '/api',
-  oauthServerUrl: 'https://login-learn.thymio.org',
-  oauthClientId: '25',
+  oauthServerUrl: 'https://login.be-oi.be',
+  oauthClientId: 'algorea',
 //  searchApiUrl: '',
 //  forumServerUrl: 'wss://cyduaoy46h.execute-api.eu-west-3.amazonaws.com/thy',
 
