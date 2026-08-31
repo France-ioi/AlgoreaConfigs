@@ -19,7 +19,7 @@ window.appConfig = {
     { tag: 'fr', path: '/fr/' },
     { tag: 'nl', path: '/nl/' },
   ],
-  defaultTitle: 'beOI-Learn',
+  defaultTitle: 'beOI Lab',
   languageSpecificTitles: {},
 
   allowForcedToken: true,
