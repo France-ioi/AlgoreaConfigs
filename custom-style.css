@@ -49,3 +49,8 @@
 .left-menu .tree-nav-chevron i {
   font-family: "Phosphor-Fill" !important;
 }
+
+/* TwoLevels grand-children cards (compact grid only) */
+.grid-container.compact .grid-card {
+  border: none;
+}
