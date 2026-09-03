@@ -1,6 +1,8 @@
 languages:
   - en
   - fr
+  - nl
+  - de
 assetDomain: static.be-oi.be
 customAssetPath: /frontend/assets/beoi/
 fontPreloads: []

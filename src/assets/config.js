@@ -18,6 +18,7 @@ window.appConfig = {
     { tag: 'en', path: '/en/' },
     { tag: 'fr', path: '/fr/' },
     { tag: 'nl', path: '/nl/' },
+    { tag: 'de', path: '/de/' },
   ],
   defaultTitle: 'beOI Lab',
   languageSpecificTitles: {},
@@ -32,7 +33,7 @@ window.appConfig = {
   },
 
   leftMenuTabs: [
-    { type: 'activities', showTo: 'all', content: { id: '1', path: [] }, caption: { default: 'Home', fr: 'Accueil', de: 'Startseite', it: 'Home' }, icon: 'ph ph-house' },
+    { type: 'activities', showTo: 'all', content: { id: '1', path: [] }, caption: { default: 'Home', fr: 'Accueil', de: 'Startseite', nl: 'Home' }, icon: 'ph ph-house' },
     { type: 'groups', showTo: 'all' },
   ],
 
