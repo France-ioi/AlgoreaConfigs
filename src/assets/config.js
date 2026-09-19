@@ -35,6 +35,7 @@ window.appConfig = {
   leftMenuTabs: [
     { type: 'activities', showTo: 'all', content: { id: '1', path: [] }, caption: { default: 'Home', fr: 'Accueil', de: 'Startseite', nl: 'Home' }, icon: 'ph ph-house' },
     { type: 'groups', showTo: 'all' },
+    { type: 'community', showTo: [ '877818711400634110' ] },
   ],
 
   redirects: { /* paths to be matched must not have a trailing slash */
