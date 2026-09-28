@@ -6,3 +6,4 @@ languages:
 assetDomain: static.be-oi.be
 customAssetPath: /frontend/assets/beoi/
 fontPreloads: []
+customStyleFile: custom-style.css

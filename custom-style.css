@@ -1,0 +1,11 @@
+/* beOI theme — blues from https://be-oi.be (--color-primary / container / on-primary-container) */
+:root {
+  --alg-primary-color: #3A54A4;
+  --alg-primary-light-color: #C5CDEA;
+  --alg-primary-dark-color: #1E2D5C;
+  --alg-primary-dark-hover-color: #2A4080;
+  --alg-light-bg-color: #E8ECF5;
+  --alg-tree-selected-color: #D5DBEF;
+  --alg-loading-bg: #D0D7EB;
+  --alg-search-result-highlight: #3A54A433;
+}
