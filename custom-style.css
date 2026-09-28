@@ -1,4 +1,4 @@
-/* beOI theme — dark blue from https://be-oi.be (--color-on-primary-container) */
+/* beOI theme — button blue from https://be-oi.be (--color-primary, e.g. "Continuer") */
 :root {
-  --alg-primary-dark-color: #1E2D5C;
+  --alg-primary-color: #3A54A4;
 }
