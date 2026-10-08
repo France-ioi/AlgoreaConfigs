@@ -40,7 +40,16 @@
 }
 
 .left-menu .main-menu-title {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 0.3rem;
   font-weight: 700 !important;
+  text-align: center;
+  white-space: normal;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
 }
 
 .left-menu .sidebar-toggle-btn {
