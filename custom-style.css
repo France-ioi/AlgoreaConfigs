@@ -59,15 +59,22 @@
   font-family: "Phosphor-Fill" !important;
 }
 
-/* Selected tree row: edge-to-edge yellow, square corners.
+/* Tree / back-button rows: edge-to-edge highlight, square corners (incl. hover).
    !important beats Angular emulated-encapsulation (same specificity, injected later). */
 .left-menu .tree-nav-container {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
+.left-menu .nav-level-l0 {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
 .left-menu .tree-nav-wrapper,
-.left-menu .tree-nav-wrapper.selected {
+.left-menu .tree-nav-wrapper.selected,
+.left-menu .back-button-container,
+.left-menu .back-button-container.with-content-icon {
   border-radius: 0 !important;
 }
 
