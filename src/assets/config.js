@@ -33,6 +33,15 @@ window.appConfig = {
     hideTaskTabs: [ 'alg-chapter-progress' ],
   },
 
+  descriptionContentSecurityPolicy: {
+    styleSrc: [ 'https://thymio.org', 'https://fonts.googleapis.com' ],
+    fontSrc: [ 'https://fonts.gstatic.com' ],
+    imgSrc: [ 'https://www.thymio.org' ],
+    mediaSrc: [ 'https://www.thymio.org' ],
+    connectSrc: [ 'https://thymio.org' ],
+    frameSrc: [],
+  },
+
   leftMenuTabs: [
     { type: 'activities', showTo: 'all', content: { id: '1', path: [] }, caption: { default: 'Home', fr: 'Accueil', de: 'Startseite', it: 'Home' }, icon: 'ph ph-house' },
     { type: 'activities', showTo: 'all', content: { id: '331016547396745102', path: [] }, caption: { default: 'Coding', fr: 'Coding' }, icon: 'ph ph-code' },
