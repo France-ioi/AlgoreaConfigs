@@ -32,6 +32,15 @@ window.appConfig = {
 
   },
 
+  descriptionContentSecurityPolicy: {
+    styleSrc: [],
+    fontSrc: [],
+    imgSrc: [ 'https://be-oi.be' ],
+    mediaSrc: [],
+    connectSrc: [],
+    frameSrc: [],
+  },
+
   leftMenuTabs: [
     { type: 'activities', showTo: 'all', content: { id: '1', path: [] }, caption: { default: 'Home', fr: 'Accueil', de: 'Startseite', nl: 'Home' }, icon: 'ph ph-house' },
     { type: 'groups', showTo: 'all' },
