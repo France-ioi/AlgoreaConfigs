@@ -30,6 +30,15 @@ window.appConfig = {
     hideTaskTabs: [ 'progress' ],
   },
 
+  descriptionContentSecurityPolicy: {
+    styleSrc: [],
+    fontSrc: [],
+    imgSrc: [ 'https://algorea.org' ],
+    mediaSrc: [],
+    connectSrc: [],
+    frameSrc: [],
+  },
+
   leftMenuTabs: [
     { type: 'activities', showTo: 'all', content: { id: '1', path: [] } },
     { type: 'groups', showTo: 'all' },
