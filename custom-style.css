@@ -54,8 +54,19 @@
 .left-menu .sidebar-toggle-btn {
   color: #413E89;
 }
-.left-menu .tree-nav-chevron i {
+.left-menu .tree-nav-chevron i,
+.left-menu .back-button-gutter i {
   font-family: "Phosphor-Fill" !important;
+}
+
+/* Selected tree row: edge-to-edge yellow, square corners (default is inset + 10px radius) */
+.left-menu .tree-nav-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.left-menu .tree-nav-wrapper.selected {
+  border-radius: 0;
 }
 
 /* TwoLevels grand-children cards (compact grid only) */
