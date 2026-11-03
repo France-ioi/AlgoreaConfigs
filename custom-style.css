@@ -59,14 +59,16 @@
   font-family: "Phosphor-Fill" !important;
 }
 
-/* Selected tree row: edge-to-edge yellow, square corners (default is inset + 10px radius) */
+/* Selected tree row: edge-to-edge yellow, square corners.
+   !important beats Angular emulated-encapsulation (same specificity, injected later). */
 .left-menu .tree-nav-container {
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
+.left-menu .tree-nav-wrapper,
 .left-menu .tree-nav-wrapper.selected {
-  border-radius: 0;
+  border-radius: 0 !important;
 }
 
 /* TwoLevels grand-children cards (compact grid only) */
