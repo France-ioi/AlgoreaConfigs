@@ -32,6 +32,15 @@ window.appConfig = {
     }
   },
 
+  descriptionContentSecurityPolicy: {
+    styleSrc: [],
+    fontSrc: [],
+    imgSrc: [ 'https://static-items.algorea.org' ],
+    mediaSrc: [],
+    connectSrc: [],
+    frameSrc: [],
+  },
+
   redirects: { /* paths to be matched must not have a trailing slash */
     'home': { id: '1', path: [] },
 
