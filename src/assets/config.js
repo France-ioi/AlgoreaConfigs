@@ -32,6 +32,15 @@ window.appConfig = {
     hideTaskTabs: []
   },
 
+  descriptionContentSecurityPolicy: {
+    styleSrc: [ 'https://www.france-ioi.org', 'https://static-items.algorea.org', 'https://algorea.org' ],
+    fontSrc: [ 'https://www.france-ioi.org', 'https://static-items.algorea.org', 'https://algorea.org' ],
+    imgSrc: [ 'https://www.france-ioi.org', 'https://static-items.algorea.org', 'https://algorea.org' ],
+    mediaSrc: [ 'https://www.france-ioi.org', 'https://static-items.algorea.org', 'https://algorea.org' ],
+    connectSrc: [ 'https://www.france-ioi.org', 'https://static-items.algorea.org', 'https://algorea.org' ],
+    frameSrc: [],
+  },
+
   leftMenuTabs: [
     { type: 'activities', showTo: 'all', content: { id: '4702', path: [] } },
     { type: 'skills', showTo: 'all', content: { id: '409159715167354071', path: [] } },
